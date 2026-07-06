@@ -1,0 +1,22 @@
+# Data — never commit source data or processed data
+data/
+
+# Model artifacts — large binary files, regenerate from notebooks
+models/*.joblib
+
+# Mac OS metadata garbage
+__MACOSX/
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Environment
+.env
+*.env

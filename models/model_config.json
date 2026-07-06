@@ -1,0 +1,29 @@
+{
+  "operating_threshold": 0.61,
+  "features": [
+    "length_of_stay",
+    "icu_admission",
+    "discharge_hour",
+    "weekend_discharge",
+    "prior_inpatient",
+    "prior_emergency",
+    "prior_outpatient",
+    "active_conditions",
+    "has_hypertension",
+    "has_obesity",
+    "has_diabetes",
+    "has_chronic_resp",
+    "active_medications",
+    "HEALTHCARE_EXPENSES",
+    "HEALTHCARE_COVERAGE",
+    "age_at_admission",
+    "GENDER_M",
+    "RACE_black",
+    "RACE_native",
+    "RACE_white",
+    "ETHNICITY_nonhispanic",
+    "MARITAL_S",
+    "MARITAL_U"
+  ],
+  "clinical_rationale": "50% precision (1 in 2 flagged = true readmission), 15.6% flag rate consistent with care management norms, 81.2% recall catches majority of at-risk patients"
+}
